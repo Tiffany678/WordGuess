@@ -57,7 +57,7 @@ public class PersonTest {
         personInterface.setAge(expected);
 
         // when
-        String actual = personInterface.getLastName();
+        Integer actual = personInterface.getAge();
 
         // then
         Assertions.assertEquals(expected, actual);
